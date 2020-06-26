@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+.container-fluid {
+    background: #900c3f;
+}
+
+body {
+    background: #900c3f;
+    min-height: 100vh;
+    font-family: 'Niconne', cursive;
+    user-select: none;
+}
+
+* {
+    margin: 0;
+    background: #900c3f;
+    font-family: 'Niconne', cursive;
+    user-select: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.title {
+    color: #e74a4a;
+    text-align: center;
+    text-shadow: 0px 0px 20px #e74949;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #db5a5a;
+    text-transform: capitalize;
+    letter-spacing: 2.5px;
+}
+
+.note {
+    text-align: center;
+    font-size: 50px;
+    color: #f3423c;
+    text-transform: capitalize;
+    padding-top: 35px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+input {
+    font-size: 25px;
+    outline: none;
+    background: #fc9d9d;
+    height: 40px;
+    width: 500px;
+    border: 1px solid #fc9d9d;
+    border-radius: 10px;
+    color: #b93434;
+    letter-spacing: 2px;
+}
+
+.input-lg {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    border-radius: 15px;
+    color: #da5e5e;
+    font-family: 'Niconne', cursive;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(211, 72, 72);
+    transition: all 0.3s linear;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#submit:hover {
+    color: #900C3F;
+    background: #da5e5e;
+    width: 220px
+}
+
+.fa-heart {
+    color: pink;
+    position: absolute;
+    top: -20px;
+    animation: fall linear forwards;
+}
+
+#display {
+    font-size: 5rem;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh);
+    }
+}
