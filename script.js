@@ -36,6 +36,7 @@ function calculate() {
     }
 
 }
+//heart on clicks
 
 //heart fall
 
