@@ -16,8 +16,8 @@ body {
     font-family: 'Niconne', cursive;
     user-select: none;
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
 }
 
 .title {
@@ -49,8 +49,9 @@ input {
     font-size: 25px;
     outline: none;
     background: #fc9d9d;
+    /* min-width: 300px; */
     height: 40px;
-    width: 500px;
+    /* width: 500px; */
     border: 1px solid #fc9d9d;
     border-radius: 10px;
     color: #b93434;
@@ -98,8 +99,9 @@ input {
     font-size: 5rem;
 }
 
-@keyframes fall {
+
+/* @keyframes fall {
     to {
         transform: translateY(110vh);
     }
-}
+} */

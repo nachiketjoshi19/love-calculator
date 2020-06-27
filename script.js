@@ -39,24 +39,24 @@ function calculate() {
 
 //heart fall
 
-setInterval(createHeartFall, 100);
+// setInterval(createHeartFall, 100);
 
 
-function createHeartFall() {
-    const heart = document.createElement('i');
-    heart.classList.add('fas');
-    heart.classList.add('fa-heart');
-    heart.style.left = Math.random() * window.innerWidth + 'px';
-    heart.style.animationDuration = Math.random() * 3 + 2 + 's'; // between 2 - 5 seconds
-    heart.style.opacity = Math.random();
-    heart.style.fontSize = Math.random() * 10 + 10 + 'px';
+// function createHeartFall() {
+//     const heart = document.createElement('i');
+//     heart.classList.add('fas');
+//     heart.classList.add('fa-heart');
+//     heart.style.left = Math.random() * window.innerWidth + 'px';
+//     heart.style.animationDuration = Math.random() * 3 + 2 + 's'; // between 2 - 5 seconds
+//     heart.style.opacity = Math.random();
+//     heart.style.fontSize = Math.random() * 10 + 10 + 'px';
 
-    document.body.appendChild(heart);
+//     document.body.appendChild(heart);
 
-    setTimeout(() => {
-        heart.remove();
-    }, 5000)
-}
+//     setTimeout(() => {
+//         heart.remove();
+//     }, 5000)
+// }
 
 
 
