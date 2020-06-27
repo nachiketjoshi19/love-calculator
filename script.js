@@ -15,7 +15,7 @@ function calculate() {
         alert("enter both the names")
     } else {
         if (r < 10) {
-            note.innerHTML = "Go and enjoy ur life man"
+            note.innerHTML = "Go and enjoy ur life man         "
             display.innerHTML = r + "%";
         } else if (r <= 50) {
             note.innerHTML = "Something is missing in your relation"
@@ -26,11 +26,11 @@ function calculate() {
             display.innerHTML = r + "%";
         } else if (r > 80 && r <= 95) {
 
-            note.innerHTML = "perfect couple "
+            note.innerHTML = "perfect couple                  "
             display.innerHTML = r + "%";
         } else if (r > 95) {
 
-            note.innerHTML = "Made For Each Other  "
+            note.innerHTML = "Made For Each Other             "
             display.innerHTML = r + "%";
         }
     }
